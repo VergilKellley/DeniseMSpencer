@@ -148,17 +148,19 @@ body, html {
 #fox-32-sec {
   margin-top: 50px;
   margin-bottom: 25px;
-  background: lightblue; }
+  background: lightblue;
+  height: 100vh; }
 
 #fox-32-photo {
   background-image: url("../img/akilah-on-fox.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-top: 70px;
   height: 80vh; }
 
 #fox-32-sec h3 {
-  margin-top: 10rem;
+  margin-top: 13rem;
   text-align: center; }
 
 #fox-32-sec p {
