@@ -1,0 +1,176 @@
+body {
+  font-family: arial;
+  background: #f8f9fb; }
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0; }
+
+fieldset, img {
+  border: 0; }
+
+li {
+  list-style: none; }
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 17.5%;
+  width: 11%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 51%;
+  position: fixed;
+  z-index: 1;
+  left: 90%; }
+  .navbar ul li a {
+    display: block;
+    color: #fff;
+    padding: 10% 10%; }
+  .navbar ul li a.active {
+    background-color: #EF4135;
+    opacity: 0.7;
+    color: #fff;
+    text-decoration: none; }
+  .navbar ul li a:hover:not(.active) {
+    background-color: #0055A4;
+    color: #EF4135;
+    text-decoration: none; }
+
+body, html {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #666;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.header {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  padding: 0; }
+
+.header h1 {
+  position: absolute;
+  top: 7rem;
+  left: 10%; }
+
+#bottom-of-header {
+  position: relative;
+  height: 50vh;
+  background: lightblue;
+  text-align: center; }
+
+#bottom-of-header h3 {
+  padding-top: 120px; }
+
+#headshot {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  border-radius: 100px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); }
+
+.header h2 {
+  position: relative;
+  top: 35%;
+  text-align: center; }
+
+.header h3 {
+  text-align: center; }
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 2; }
+
+#overlay-text {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: 230px;
+  font-size: 2.5rem; }
+
+#sky-line-photo {
+  position: relative;
+  background-image: url("../img/sky-line - Copy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  z-index: -1; }
+
+.public-relations {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  color: #000; }
+
+.public-relations h2 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.public-relations p {
+  font-size: 1.2rem;
+  padding: 0 20px 0 20px; }
+
+.channel-7 {
+  height: 100vh;
+  width: 100%; }
+
+#abc-7-photo {
+  background-image: url("../img/sherri-anvil-slide712_orig.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.channel-7-text {
+  margin-top: 12rem;
+  font-size: 1.5rem; }
+
+#fox-32-sec {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  background: lightblue; }
+
+#fox-32-photo {
+  background-image: url("../img/akilah-on-fox.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80vh; }
+
+#fox-32-sec h3 {
+  margin-top: 10rem;
+  text-align: center; }
+
+#fox-32-sec p {
+  text-align: center;
+  font-size: 1.5rem; }
+
+#windy-city-photo {
+  background-image: url("../img/drwellson-wcl.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80vh; }
+
+.windy-city-text h3 {
+  margin-top: 160px; }
