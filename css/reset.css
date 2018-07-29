@@ -1,6 +1,7 @@
 body {
   font-family: arial;
   background: #f8f9fb;
+  overflow-x: hidden;
 }
 
 html, body, ul, ol, li, form, fieldset, legend {
