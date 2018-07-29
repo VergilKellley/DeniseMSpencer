@@ -237,6 +237,16 @@ body, html{
 	padding-left:1rem;
 }
 
+.myportfolio{
+	
+	h1{
+		text-align:center;
+		padding:10px;
+		background-color:lightblue;
+		margin-bottom:0;
+	}
+}
+
 //****************************mywork****************************
 
 .mywork{
@@ -283,6 +293,37 @@ body, html{
 	p{
 		margin-top:10rem;
 		margin-left:16rem;
+	}
+}
+
+.mywork5{
+	
+	margin-top:20rem;
+	margin-left:15rem;
+
+	.imgfloat{
+		margin-left:10rem;
+	}
+
+	p{
+		margin-top:13rem;
+		margin-left:16rem;
+	}
+}
+
+.mywork6{
+	
+	margin-top:15rem;
+	margin-bottom: 10rem;
+	margin-left:5rem;
+
+	.imgfloat-photo{
+		margin-left:5rem;
+	}
+
+	.imgfloat-text{
+		margin-left: 15rem;
+		margin-top:10rem;
 	}
 }
 
