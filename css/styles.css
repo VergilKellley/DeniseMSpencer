@@ -142,25 +142,28 @@ body, html {
     margin-top: 70px;
     height: 80vh; }
 
-#windy-city-photo {
+#windy-city-sec p {
+  font-size: 20px; }
+
+#windy-city-sec #securing {
+  -webkit-box-shadow: 5px 10px;
+  box-shadow: 5px 10px; }
+
+#windy-city-sec #windy-city-photo {
   background-image: url("../img/drwellson-wcl.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   height: 55vh; }
 
-.windy-city-text {
+#windy-city-sec .windy-city-text {
   -webkit-box-shadow: 5px 10px;
   box-shadow: 5px 10px;
   background: lightblue;
   height: 15rem;
-  top: 13rem; }
+  top: 11rem; }
 
-#securing {
-  -webkit-box-shadow: 5px 10px;
-  box-shadow: 5px 10px; }
-
-#securing h4 {
+#windy-city-sec #securing h4 {
   font-style: italic;
   background: lightblue;
   margin-top: 1rem;
@@ -168,38 +171,34 @@ body, html {
   padding: 10px;
   color: #fff; }
 
-#dr-wells {
+#windy-city-sec #dr-wells {
   padding-top: 10%; }
 
 .channel-7 {
   margin-top: 7rem;
   height: 100vh; }
-
-#abc-7-photo {
-  background-image: url("../img/sherri-anvil-slide712_orig.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 90vh; }
-
-.channel-7-text {
-  background-color: lightblue;
-  height: 80vh;
-  width: 17rem;
-  margin-top: 1.5rem; }
-
-.channel-7-text h2 {
-  padding-top: 1rem;
-  text-transform: capitalize;
-  width: 15rem;
-  padding-left: 1rem; }
-
-.channel-7-text p {
-  margin-top: 1rem;
-  font-size: 1.295rem;
-  position: relative;
-  width: 15rem;
-  padding-left: 1rem; }
+  .channel-7 #abc-7-photo {
+    background-image: url("../img/sherri-anvil-slide712_orig.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh; }
+  .channel-7 .channel-7-text {
+    background-color: lightblue;
+    height: 80vh;
+    width: 17rem;
+    margin-top: 1.5rem; }
+  .channel-7 .channel-7-text h2 {
+    padding-top: 1rem;
+    text-transform: capitalize;
+    width: 15rem;
+    padding-left: 1rem; }
+  .channel-7 .channel-7-text p {
+    margin-top: 1rem;
+    font-size: 1.295rem;
+    position: relative;
+    width: 15rem;
+    padding-left: 1rem; }
 
 .myportfolio {
   position: relative; }
@@ -210,7 +209,7 @@ body, html {
     margin-bottom: 0; }
   .myportfolio #capture-photo {
     position: relative;
-    background-image: url("../img/Capture.PNG");
+    background-image: url("../img/Capture.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -327,34 +326,43 @@ footer p {
 @media (max-width: 850px) {
   .header p {
     font-size: 1.9rem;
-    top: 7rem;
+    top: 5rem;
     font-weight: 600; }
   #overlay-text p {
-    font-size: 1.3rem;
-    top: 0.1rem;
-    padding: 10rem; }
+    font-size: 1.4rem;
+    top: 9.1rem;
+    padding: 2rem; }
   #fox-32-sec #akilah {
-    width: 19rem;
+    width: 20rem;
     -webkit-box-shadow: none;
     box-shadow: none; }
     #fox-32-sec #akilah p {
-      font-size: 1rem; } }
-
-@media (max-width: 1025px) {
-  .channel-7-text {
-    background-color: lightblue;
-    height: 60vh;
-    width: 14rem;
-    margin-top: 1rem; }
-  .channel-7-text h2 {
-    font-size: 15px;
-    padding-top: 1rem;
-    text-transform: capitalize;
-    width: 10rem;
-    padding-left: 1rem; }
-  .channel-7-text p {
-    margin-top: 1rem;
-    font-size: 1rem;
+      font-size: 1rem; }
+  #windy-city-sec {
+    margin-top: 25rem; }
+    #windy-city-sec .windy-city-text {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      top: 1rem; }
+    #windy-city-sec #securing {
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+    #windy-city-sec #dr-wells {
+      margin-bottom: 0;
+      padding-bottom: 0; }
+  .channel-7 {
+    margin-top: 0; }
+    .channel-7 #abc-7-photo {
+      position: relative;
+      top: -5rem; }
+    .channel-7 .channel-7-text {
+      position: relative;
+      top: -12.5rem;
+      height: 80vh;
+      width: 100%; }
+  .myportfolio {
     position: relative;
-    width: 8rem;
-    padding-left: 1rem; } }
+    top: 20rem; }
+  footer {
+    position: relative;
+    top: 20rem; } }
