@@ -511,9 +511,20 @@ footer p{
 		top:20rem;
 	}
 
+	.about-sec{
+		img#coffee-photo{
+			margin-left:0;
+		}
+	}
+
+	.education{
+		top:-.8rem;
+	}
+
 	footer{
 		position:relative;
 		top:20rem;
 		width:100%;
+		
 	}
 }
