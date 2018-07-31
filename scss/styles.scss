@@ -551,6 +551,75 @@ footer p{
 	}
 
 }
+	.mywork3{
+	position:relative;
+	top:-30rem;
+	margin-left:1rem;
+
+	p{
+		margin-left:1rem;
+	}
+
+	#mywork3-photo{
+		width:100vw;
+		margin-top:2rem;
+		margin-bottom:0;
+	}
+}
+
+	.mywork4{
+
+		position:relative;
+			margin-top:15rem;
+			left:0;
+		
+		.imgfloat{
+			position:relative;
+			top:-32rem;
+			width:100vw;
+		}
+
+		.imgfloat-text p{
+			position:relative;
+			width:100vw;
+			top:-39rem;
+			left:-16rem;
+		}
+	}
+
+	.mywork5{
+	
+	margin-top:-27rem;
+	margin-left:-5rem;
+
+	.imgfloat{
+		margin-left:-2rem;
+		width:100vw;
+	}
+
+	p{
+		margin-top:2rem;
+		margin-left:1rem;
+		width:90vw;
+	}
+}
+
+	.mywork6{
+	
+	margin-top:18rem;
+	margin-bottom:-10rem;
+	margin-left:5rem;
+
+	.imgfloat-photo{
+		margin-left:1rem;
+		width:100vw;
+	}
+
+	.imgfloat-text{
+		margin-left: 1rem;
+		margin-top:2rem;
+	}
+}
 
 	footer{
 		position:relative;
