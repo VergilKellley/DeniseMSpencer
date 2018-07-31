@@ -49,43 +49,35 @@ body, html {
   width: 100vw;
   height: 50vh;
   padding: 0; }
+  .header p {
+    position: absolute;
+    top: 7rem;
+    font-weight: 400;
+    font-size: 3rem;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%); }
+  .header #bottom-of-header {
+    position: relative;
+    height: 50vh;
+    background: lightblue;
+    text-align: center; }
+  .header #headshot {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    border-radius: 100px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); }
+  .header h2 {
+    position: relative;
+    top: 40%;
+    text-align: center; }
 
-.header h1 {
-  position: absolute;
-  top: 8rem;
-  left: 50%;
-  -ms-transform: translate(-50%);
-  transform: translate(-50%);
-  -webkit-transform: translate(-50%); }
-
-#bottom-of-header {
-  position: relative;
-  height: 50vh;
-  background: lightblue;
-  text-align: center; }
-
-#bottom-of-header h3 {
-  padding-top: 120px; }
-
-#headshot {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 50%;
-  border-radius: 100px;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%); }
-
-.header h2 {
-  position: relative;
-  top: 40%;
-  text-align: center; }
-
-.header h3 {
-  text-align: center; }
-
-.overlay {
+#overlay-color {
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   bottom: 0;
@@ -93,12 +85,13 @@ body, html {
   width: 100%;
   z-index: 2; }
 
-#overlay-text {
+#overlay-text p {
   position: absolute;
-  color: #fff;
   text-align: center;
-  top: 230px;
-  font-size: 2.7rem; }
+  color: #fff;
+  top: 14rem;
+  font-size: 2.5rem;
+  padding: 0 10rem; }
 
 #sky-line-photo {
   position: relative;
@@ -116,44 +109,38 @@ body, html {
   text-align: center;
   padding: 20px;
   color: #000; }
-
-.public-relations h2 {
-  padding-top: 30px;
-  padding-bottom: 30px; }
-
-.public-relations p {
-  font-size: 1.2rem;
-  padding: 0 20px 0 20px; }
+  .public-relations h2 {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .public-relations p {
+    font-size: 1.2rem;
+    padding: 0 20px 0 20px; }
 
 #fox-32-sec {
   margin-top: 50px;
   margin-bottom: 25px;
   background: lightblue;
   height: 100vh; }
-
-#fox-32-photo {
-  background-image: url("../img/akilah-on-fox.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 70px;
-  height: 80vh; }
-
-#akilah {
-  background: #fff;
-  padding: 10px;
-  -webkit-box-shadow: 10px 5px 10px 5px;
-  box-shadow: 10px 5px 10px 5px;
-  height: 14rem;
-  margin-top: 12rem; }
-
-#fox-32-sec h3 {
-  position: absolute; }
-
-#fox-32-sec p {
-  position: absolute;
-  margin-top: 3rem;
-  font-size: 1.5rem; }
+  #fox-32-sec #akilah {
+    background: #fff;
+    padding: 10px;
+    -webkit-box-shadow: 10px 5px 10px 5px;
+    box-shadow: 10px 5px 10px 5px;
+    height: 14rem;
+    margin-top: 12rem; }
+    #fox-32-sec #akilah h4 {
+      position: absolute; }
+    #fox-32-sec #akilah p {
+      position: absolute;
+      margin-top: 3rem;
+      font-size: 1.5rem; }
+  #fox-32-sec #fox-32-photo {
+    background-image: url("../img/akilah-on-fox.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    height: 80vh; }
 
 #windy-city-photo {
   background-image: url("../img/drwellson-wcl.jpg");
@@ -214,11 +201,21 @@ body, html {
   width: 15rem;
   padding-left: 1rem; }
 
-.myportfolio h1 {
-  text-align: center;
-  padding: 10px;
-  background-color: lightblue;
-  margin-bottom: 0; }
+.myportfolio {
+  position: relative; }
+  .myportfolio h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue;
+    margin-bottom: 0; }
+  .myportfolio #capture-photo {
+    position: relative;
+    background-image: url("../img/Capture.PNG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%; }
 
 .mywork {
   position: relative;
@@ -228,7 +225,6 @@ body, html {
     margin-left: 20rem; }
   .mywork p {
     text-align: left;
-    color: red;
     margin-left: 20rem;
     margin-top: 4rem; }
 
@@ -327,3 +323,38 @@ footer p {
   footer p a:hover {
     text-decoration: none;
     color: lightblue; }
+
+@media (max-width: 850px) {
+  .header p {
+    font-size: 1.9rem;
+    top: 7rem;
+    font-weight: 600; }
+  #overlay-text p {
+    font-size: 1.3rem;
+    top: 0.1rem;
+    padding: 10rem; }
+  #fox-32-sec #akilah {
+    width: 19rem;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    #fox-32-sec #akilah p {
+      font-size: 1rem; } }
+
+@media (max-width: 1025px) {
+  .channel-7-text {
+    background-color: lightblue;
+    height: 60vh;
+    width: 14rem;
+    margin-top: 1rem; }
+  .channel-7-text h2 {
+    font-size: 15px;
+    padding-top: 1rem;
+    text-transform: capitalize;
+    width: 10rem;
+    padding-left: 1rem; }
+  .channel-7-text p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    position: relative;
+    width: 8rem;
+    padding-left: 1rem; } }
