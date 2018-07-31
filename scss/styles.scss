@@ -170,11 +170,15 @@ body, html{
 	}
 }
 
+#windy-city-sec{
+	
+	p{
+		font-size:20px;
+	}
 
-
-
-
-
+	#securing{
+	box-shadow: 5px 10px;
+}
 
 #windy-city-photo{
 	background-image: url('../img/drwellson-wcl.jpg');
@@ -188,12 +192,10 @@ body, html{
 	box-shadow: 5px 10px;
 	background:lightblue;
 	height: 15rem;
-	top:13rem;
+	top:11rem;
 }
 
-#securing{
-	box-shadow: 5px 10px;
-}
+
 
 #securing h4{
 	font-style:italic;
@@ -208,13 +210,14 @@ body, html{
 	padding-top: 10%;
 
 }
+}
+
 
 .channel-7{
 	margin-top:7rem;
 	height:100vh;
-}
 
-#abc-7-photo{
+	#abc-7-photo{
 	background-image: url('../img/sherri-anvil-slide712_orig.jpg');
 	background-position:center;
 	background-size:contain;
@@ -245,6 +248,9 @@ body, html{
 	width:15rem;
 	padding-left:1rem;
 }
+}
+
+
 
 .myportfolio{
 	
@@ -259,7 +265,7 @@ body, html{
 
 	#capture-photo{
 	position:relative;
-	background-image: url('../img/Capture.PNG');
+	background-image: url('../img/Capture.jpg');
 	background-position:center;
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -437,21 +443,22 @@ footer p{
 @media(max-width: 850px){
 	.header p{
 		font-size:1.9rem;
-		top:7rem;
+		top:5rem;
 		font-weight:600;
 	}
 
 	#overlay-text p{
 
-		font-size: 1.3rem;
-		top:0.1rem;
-		padding:10rem;
+		font-size: 1.4rem;
+		top:9.1rem;
+		padding:2rem;
 	}
 
 	#fox-32-sec{
+
 	#akilah{
 
-		width: 19rem;
+		width: 20rem;
 		box-shadow: none;
 
 		p{
@@ -459,32 +466,53 @@ footer p{
 		}
 	}
 	}
-}
 
-@media (max-width: 1025px){
-	
-	.channel-7-text{
-	background-color:lightblue;
-	height:60vh;
-	width: 14rem;
-	margin-top: 1rem;
+	#windy-city-sec{
 
-}
+	margin-top:25rem;
 
-	.channel-7-text h2{
-	 font-size:15px;
-	padding-top:1rem;
-	text-transform:capitalize;
-	width:10rem;
-	padding-left:1rem;
-}
-	.channel-7-text p{
-	margin-top:1rem;
-	font-size: 1rem;
-	position:relative;
-	width:8rem;
-	padding-left:1rem;
+	.windy-city-text{	
+	box-shadow:none;
+	top:1rem;
 	}
 
+	#securing {
+	box-shadow:none;
+}
 
+	#dr-wells{
+		margin-bottom:0;
+		padding-bottom:0;
+	}
+
+	}
+
+	.channel-7{
+
+		margin-top:0;
+
+		#abc-7-photo{
+	    position:relative;
+	    top:-5rem;
+}
+
+		.channel-7-text{
+			position:relative;
+			top: -12.5rem;
+			height:80vh;
+			width:100%;
+
+}
+	}
+
+	.myportfolio{
+	
+		position:relative;
+		top:20rem;
+	}
+
+	footer{
+		position:relative;
+		top:20rem;
+	}
 }
