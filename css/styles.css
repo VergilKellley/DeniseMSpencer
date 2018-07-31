@@ -365,4 +365,5 @@ footer p {
     top: 20rem; }
   footer {
     position: relative;
-    top: 20rem; } }
+    top: 20rem;
+    width: 100%; } }
