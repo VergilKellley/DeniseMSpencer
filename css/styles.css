@@ -367,6 +367,16 @@ footer p {
     margin-left: 0; }
   .education {
     top: -.8rem; }
+  .mywork {
+    width: 100vw; }
+    .mywork #bird-photo {
+      margin-left: 0rem;
+      width: 100vw; }
+    .mywork p {
+      margin-left: 0rem;
+      margin-top: 1rem;
+      width: 90vw;
+      padding-left: 1rem; }
   footer {
     position: relative;
     top: 20rem;
