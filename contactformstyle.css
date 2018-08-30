@@ -1,0 +1,41 @@
+body {
+	background: blue;
+}
+
+main{
+	text-align: center;
+	margin:0 auto;
+	margin-top: 50px;
+	width: 20rem;
+	height: 31rem;
+	font-size: 20px;
+	background-color: lightblue;
+}
+
+main p {
+	margin:0 auto;
+	padding-top: 10px;
+}
+
+form input {
+	display: block;
+	width: 95%;
+	margin: 1rem auto;
+}
+
+form textarea {
+	width: 95%;
+	height: 14rem;
+}
+
+main form button {
+	display: block;
+	margin:.3rem auto;
+	background: #000;
+	color: #fff;
+}
+
+main form button:hover {
+	color:lightblue;
+	cursor: pointer;
+}
