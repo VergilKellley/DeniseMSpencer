@@ -11,11 +11,18 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet"/>
 
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 	<title>Denise Spencer</title>
+
+	<script>
+		$(document).ready(function() {
+    		$('body').hide().fadeIn(3000);
+			});
+	</script>
 </head>
 <body>
 
@@ -33,7 +40,7 @@
         			<a class="nav-link" href="about.html">About</a>
       			</li>
       			<li class="nav-item">
-        			<a class="nav-link" href="#">Contact</a>
+        			<a class="nav-link"  onclick="openWin();">Contact</a>
       			</li>    
     		</ul>
   		</div>  
@@ -169,7 +176,15 @@
 		</div>
 	</div>
 	
-	
+	<script>
+
+		
+
+		function myFunction() {
+    	window.open( href="," "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
+}
+
+	</script>
 
 </body>
 </html>
